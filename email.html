@@ -110,21 +110,27 @@
 						
 						<tr><!-- Logo -->
 							<td valign="top" class="logo" bgcolor="#ffffff" style="padding: 10px 20px 0px 30px; border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; border-top: 1px solid #dbc064;">
-								<a href="#"><img style="margin-left: -15px;" src="images/logo_large.gif" alt="Our Vineyard" width="585" height="45" border="0"></a>
+								<!-- Embeded Base64 image -->
+								<a href="#"><img style="margin-left: -15px;" src="data:image/gif;base64,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" alt="Our Vineyard" width="585" height="45" border="0"></a>
+								
 								<!-- add this to animate gif for email. Demo wont support it -->
 								<!-- "src=images/logo_large_animated.gif" -->
+								
 							</td>
 						</tr>
+						
 						<tr><!-- Main Header -->
 							<td valign="top" class="headline" bgcolor="#ffffff" style="padding: 15px 20px 5px 30px; border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
 								<h1 style="margin: 0px 0px 15px 0px; font-weight: normal; font-family: 'Parisienne' ,Arial; font-size: 32px; color: #723c7f;"> Main Heading Here</h1>
 							</td>
 						</tr>
+						
 						<tr><!-- Main Banner -->
 							<td valign="top" bgcolor="#f5f2e5" class="banner" style="border-left: 1px solid #dbc064; border-right: 1px solid #dbc064;">
 								<img src="images/banner_large.jpg" width="638" height="180" alt="Photo of Our Vineyard">
  							</td>
 						</tr>
+						
 						<tr><!-- Main Text -->
 							<td valign="top" bgcolor="#f5f2e5" valign="top" class="content" style="padding: 30px 30px 10px 30px; border-right: 1px solid #dbc064; border-left: 1px solid #dbc064; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; color: #65408; background: #f5f2e5 url(images/banner_large_ghost.jpg) no-repeat 0px 0px;">
 								
@@ -180,6 +186,7 @@
 								
 							</td>
 						</tr>
+						
 						<tr><!-- Link Section -->
 							<td valign="top" bgcolor="#55315d" class="callout" style="background-color: #55315d; padding: 30px; border-right: 1px solid #dbc064; border-bottom: 1px solid #dbc064; border-left: 1px solid #dbc064;">
 								
@@ -195,6 +202,7 @@
 										</td>
 									</tr>
 								</table>
+								
 								<!-- Section 2 -->
 								<table class="callout_2" width="135" align="left" border="0" cellspacing="0" cellpadding="0">
 									<tr>
@@ -207,6 +215,7 @@
 										</td>
 									</tr>
 								</table>
+								
 								<!-- Section 3 -->
 								<table class="callout_3" width="135" align="left" border="0" cellspacing="0" cellpadding="0">
 									<tr>
@@ -219,6 +228,7 @@
 										</td>
 									</tr>
 								</table>
+								
 								<!-- Section 4 -->
 								<table class="callout_4" width="135" align="left" border="0" cellspacing="0" cellpadding="0">
 									<tr>
@@ -226,6 +236,7 @@
 											<img src="images/icon_camera.gif" width="75" height="75"><br>
 											Excepteur sint occaecat cupidatat non proident sunt in culpa qui molit.
 											<br><br class="spacer">
+											
 											<!-- Link Call to action button -->
 											<a href="#" style="color: #efe1b0;">Learn more</a>
 										</td>
@@ -236,6 +247,7 @@
 								
 							</td>
 						</tr>
+						
 						<tr><!-- Footer Section -->
 							<td valign="top" class="footer" style="padding: 10px 0px 30px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #b2a16e;">
 							&copy; Your Company Name. PLEASE DO NOT REPLY TO THIS MESSAGE:
